@@ -35,9 +35,9 @@
       <img class="header__logo-image" src="images/logo-black.svg" alt="Логотип">
     </a>
     <!--Addres-->
-    <address class="address">
-      <a class="header__tel" href="tel: +9 999 555 5555">+9 999 555 5555</a> <br>
-      <a href="mail: info@sobaka.ge">info@sobaka.ge</a>
+    <address class="header__address">
+      <a href="tel:+99995555555">+9 999 555 5555</a> <br>
+      <a href="mail:info@sobaka.ge">info@sobaka.ge</a>
       <p>наб. Принсенграхт 263- <br> 265, Амстердам</p>
     </address>
 
@@ -49,7 +49,7 @@
       <!--Затемненный фон-->
       <div class="overlay"></div>
       <!--Title-->
-      <div class="cover__title">
+      <h1 class="cover__title">
         <span class="aligned-text">о<span class="letter-spacing-extended">н<span class="no-letter-spacing">о</span>
           </span></span>
 
@@ -58,7 +58,7 @@
         <span class="aligned-text aligned-text_right"><span class="letter-spacing-extended">н</span>ад<span
             class="no-letter-spacing">о</span></span>
 
-      </div>
+      </h1>
 
       <div class="cover__description">
         <!--Text-->
@@ -66,9 +66,9 @@
           Аукцион вещей, в которые никто не верил
         </p>
         <!--Button-->
-        <a class="bet-button" href="#0">
+        <button class="bet-button">
           Сделать ставку
-        </a>
+        </button>
 
       </div>
     </section>
@@ -77,43 +77,44 @@
       <!--Heading -->
       <h2 class="lots__heading">Лоты</h2>
       <!--Lots card-->
-      <div class="lots__card-list">
-        <div class="lots__card-list-item">
+      <ul class="lots__card-list">
+        <li class="lots__card-list-item">
           <a class="card-link" href="#0">
             <article class="card card_type_film">
               <div class="overlay"></div>
-              <h4 class="card__title">Фильм режиссёра, <br> который бросил <br> киношколу</h4>
+              <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
               <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не
                 знали, что режиссёр — Пол Томас Андерсон?</p>
             </article>
           </a>
-        </div>
+        </li>
 
-        <div class="lots__card-list-item">
+        <li class="lots__card-list-item">
           <a class="card-link" href="#0">
             <article class="card card_type_book">
               <div class="overlay"></div>
-              <h4 class="card__title">Книга, где описан <br> один скучный день <br> из жизни <br> рекламного агента</h4>
+              <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
               <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на
                 древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная
                 с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на
                 «Улисса» Джеймса Джойса?</p>
             </article>
           </a>
-        </div>
+        </li>
 
-        <div class="lots__card-list-item">
+        <li class="lots__card-list-item">
           <a class="card-link" href="#0">
             <article class="card card_type_picture">
               <div class="overlay"></div>
-              <h4 class="card__title">Картина, которую <br> повторит даже 5- <br> летний сын <br> маминой подруги</h4>
+              <h3 class="card__title">Картина, которую повторит даже 5- летний сын маминой подруги</h3>
               <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на
                 инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали,
                 что это — одна из революционных работ Кандинского?</p>
             </article>
           </a>
-        </div>
-      </div>
+        </li>
+
+      </ul>
       <!--Ссылка посмотреть больше-->
       <a class="lots__look-more-link" href="#0">посмотреть больше</a>
     </section>
@@ -127,14 +128,15 @@
         </div>
         <!--Обвертка заголовка и текста-->
         <div class="about__content">
-          <h2 class="about__title">Об аукционе</h2>
+          <h3 class="about__title">Об аукционе</h3>
           <div class="about__text">
             <p>Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не
-              должны были попасть <br> ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина,
-              которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
+              должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина,
+              которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
+            </p>
             <p>Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные
               критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря
-              <br> на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить
+               на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить
               современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты
               стали культовыми.
             </p>
@@ -145,9 +147,9 @@
     <!--Section footer-->
     <footer class="footer">
       <!--Address-->
-      <address class="address">
-        <a class="header__tel" href="tel: +9 999 555 5555">+9 999 555 5555</a> <br>
-        <a href="mail: info@sobaka.ge">info@sobaka.ge</a>
+      <address class="footer__address">
+        <a href="tel:+99995555555">+9 999 555 5555</a> <br>
+        <a href="mail:info@sobaka.ge">info@sobaka.ge</a>
         <p>наб. Принсенграхт 263- <br> 265, Амстердам</p>
       </address>
       <!--Footer menu-->
