@@ -40,14 +40,18 @@
 
 }
 /*Address*/
-.header__address {
+.address {
   font-style: normal;
   font-size: 18px;
   font-weight: 400;
   line-height: 24.3px;
   letter-spacing: 1%;
   padding-right: 59px;
+}
+
+.header__address {
   justify-self: end;
+
 }
 
 .address a {
@@ -119,14 +123,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 110px;
+  gap: 73px;
   padding: 136px 50px 48px 78px;
   position: relative;
   z-index: 2;
 }
 /*Text*/
 .cover__description-text {
-  word-spacing: 12px;
+  word-spacing: 19px;
   font-size: 22px;
   font-weight: 400;
   line-height: 1.15;
@@ -285,7 +289,7 @@ display: flex;
 /*Footer*/
 .footer {
   display: grid;
-  grid-template-columns: 1fr 149px 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   
   padding: 0 50px 88px 50px;
 }
@@ -302,12 +306,6 @@ display: flex;
 }
 
 .footer__address {
-  font-style: normal;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24.3px;
-  letter-spacing: 1%;
-  padding-right: 59px;
   justify-self: start;
 }
 
